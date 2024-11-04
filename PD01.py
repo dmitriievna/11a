@@ -1,27 +1,54 @@
-#2. 1)
+# 1 uzd
+vards = int(input("ievadi savu vardu"))
+
+# 2 uzd
+x = 2
+y = 7
+print(x + y)
+print(x - y)
+print(x * y)
+print(x / y)
+# 3 uzd
+skaitlis = float(input("ievadi skaitli"))
+if (skaitlis) > 0:
+    print("skaitlis ir poztivs.")
+elif (skaitlis) < 0:
+    print("skaitlis ir negativs.")
+else:
+    print("skaitlis ir nulle")
+# 4 uzd 1piem
 x = float(input("ievadi x skaitli: "))
 y = float(input("ievadi y skaitli: "))
-
-from fractions import Fraction
-frac = Fraction(2+x, x*y)
-
-#2. 2)
-x = float(input("ievadi x skaitli: "))
-result = 5 * x**3 - x**2 + 7 * x - 6
-
-#2. 3)
-x = float(input("ievadi x skaitli: "))
-y = float(input("ievadi y skaitli: ")) 
-result = (x * y)  ** 0.5
-print(result) 
-
-#2. 4)
-from fractions import Fraction
+    print(4 * x * (Y + 3) + 15 * y)
+# 2 piem
 x = float(input("ievadi x skaitli: "))
 y = float(input("ievadi y skaitli: "))
+    print((5 * y ** x - 144 * x + 2) / ( x + y ) ** 2)
+# 3 piem
+x = float(input("ievadi x skaitli: "))
+y = float(input("ievadi y skaitli: "))
+    print (2 + x - 2 * x * y) / (y / (x + y))
+#5 uzd
+atzīme = int(input("ievadi veselo skaitli (1 to 10): "))
+if atzime == 10 or grade == 9:
+level = "A"
 
-numerator = 2 ** (x* y)
-denominator = 5 *y
+elif atzime == 8 or grade == 7:
 
-fraction = Fraction(numerator, denominator)
-print(fraction)
+level = "B"
+
+elif atzime == 6 or grade == 5:
+
+level = "C"
+
+elif atzime == 4 or grade == 3:
+
+level = "D"
+
+elif atzime == 2 or grade == 1:
+
+level = "E"
+
+elif atzime == 0:
+
+level = "F"
