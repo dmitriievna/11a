@@ -1,0 +1,12 @@
+def izvadit_taisnsturi (15,11):
+    for i in range (11):
+        print('*' * 15)
+        
+def izvadit_kvadratu(5):
+    for i in range(5):
+        print('*' * 5)
+        
+def izvadit_piramidu(augstums):
+    for i in range(1, augstums + 1):
+        print(' ' * (augstums - i) + '*' * (2 * i - 1))
+        
