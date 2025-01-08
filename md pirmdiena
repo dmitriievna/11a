@@ -1,0 +1,57 @@
+summa= 0
+for i in range (1, n + 1):
+        summa += i
+print("skaitļu summa no 1 līdz n ir:", summa)
+
+#1uzd
+saraksts = ["skaits"]
+for i in range(5):
+    skaitlis = int(input("Ievadiet skaitli: "))
+    saraksts.pop(1)
+    saraksts.pop(5)
+print("atlikušais saraksts: ", saraksts)
+
+#6uzd
+for i in range(7):
+    skaitlis = int(input("Ievadiet vardus: "))
+    garākais_vārds = max(vārdi, key=len)
+    print("Garākais vārds ir:", garākais_vārds)
+
+#3uzd
+pāri = 0
+nepāri = 0
+for i in range(10):
+    skaitlis = int(input(f"Ievadiet skaitli {i+1}: "))
+   
+    if skaitlis % 2 == 0:
+        pāri += 1
+    else:
+        nepāri += 1
+print(f"Pārie skaitļi: {pāri}")
+print(f"Nepārie skaitļi: {nepāri}")
+
+#4uzd
+skaitļi = []
+for i in range(10):
+    skaitlis = int(input(f"Ievadiet skaitli {i+1}: "))
+    skaitļi.append(skaitlis)
+meklētais_skaitlis = int(input("Ievadiet skaitli, kuru vēlaties meklēt: "))
+if meklētais_skaitlis in skaitļi:
+    print(f"Skaitlis {meklētais_skaitlis} ir sarakstā.")
+else:
+    print(f"Skaitlis {meklētais_skaitlis} nav sarakstā.")
+    
+#5uzd
+saraksts_1 = []
+print("Ievadiet pirmo sarakstu ar 5 skaitļiem:")
+for i in range(5):
+    skaitlis = int(input(f"Ievadiet skaitli {i+1}: "))
+    saraksts_1.append(skaitlis)
+saraksts_2 = []
+print("Ievadiet otro sarakstu ar 5 skaitļiem:")
+for i in range(5):
+    skaitlis = int(input(f"Ievadiet skaitli {i+1}: "))
+    saraksts_2.append(skaitlis)
+apvienots_saraksts = saraksts_1 + saraksts_2
+print("Apvienotais saraksts:", apvienots_saraksts)
+    
